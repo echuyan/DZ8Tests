@@ -1,6 +1,7 @@
 import tests.Test01DiceImplBoundaries;
 import tests.Test02CheckWinner;
 import tests.Test03EqualValuesOfDice;
+import tests.Test04TheSamePlayer;
 
 public class HomeWork {
 
@@ -24,6 +25,9 @@ public class HomeWork {
         System.out.println("\n\n----------------------\n\n");
 
         new Test03EqualValuesOfDice().testEqualValues();
+        System.out.println("\n\n----------------------\n\n");
+
+        new Test04TheSamePlayer().testTheSamePlayer();
         System.out.println("\n\n----------------------\n\n");
 
     }
